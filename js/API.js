@@ -29,7 +29,7 @@ module.exports = class BraveAPI {
 
     async summarizer(params) {
 
-        params.set("summary", true);
+        params.summary = true;
 
         const search = await this.search(params);
 

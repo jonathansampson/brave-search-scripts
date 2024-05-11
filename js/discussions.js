@@ -8,10 +8,10 @@ const brave = new BraveAPI({
 });
 
 // Setup the search parameters
-const params = new URLSearchParams({
+const params = {
     q: "javascript vs python",
     result_filter: "discussions"
-});
+};
 
 // Perform the search
 brave.search(params).then(results => {

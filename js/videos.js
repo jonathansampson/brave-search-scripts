@@ -8,10 +8,10 @@ const brave = new BraveAPI({
 });
 
 // Setup the search parameters
-const params = new URLSearchParams({
+const params = {
     q: "function calling with groq",
     freshness: "pm",
-});
+};
 
 // Perform the search
 brave.videos(params).then(results => {

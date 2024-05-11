@@ -7,12 +7,12 @@ const brave = new BraveAPI({
 });
 
 // Setup the search parameters
-const params = new URLSearchParams({
+const params = {
     q: "llama3 hackathon May 2024",
     text_decorations: false,
     freshness: "pm",
     result_filter: "web",
-});
+};
 
 // Perform the search
 brave.search(params).then(results => {

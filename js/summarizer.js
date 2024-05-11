@@ -8,9 +8,9 @@ const brave = new BraveAPI({
 });
 
 // Setup the search parameters
-const params = new URLSearchParams({
+const params = {
     q: "Third tallest mountain in the World",
-});
+};
 
 // Perform the search
 brave.summarizer(params).then(results => {

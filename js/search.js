@@ -12,7 +12,7 @@ const goggleID = "https://raw.githubusercontent.com/brave/"
     + "goggles-quickstart/main/goggles/tech_blogs.goggle";
 
 // Setup the search parameters
-const params = new URLSearchParams({
+const params = {
     q: "Shack15 llama3 hackathon",
     country: "us",
     search_lang: "en",
@@ -25,7 +25,7 @@ const params = new URLSearchParams({
     spellcheck: true,
     result_filter: "web",
     goggles_id: encodeURI(goggleID)
-});
+};
 
 // Perform the search
 brave.search(params).then(results => {

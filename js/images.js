@@ -8,11 +8,11 @@ const brave = new BraveAPI({
 });
 
 // Setup the search parameters
-const params = new URLSearchParams({
+const params = {
     q: "San Francisco Golden Gate Bridge",
     safesearch: "strict",
     count: 10,
-});
+};
 
 // Perform the search
 brave.images(params).then(results => {

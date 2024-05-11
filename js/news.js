@@ -8,11 +8,11 @@ const brave = new BraveAPI({
 });
 
 // Setup the search parameters
-const params = new URLSearchParams({
+const params = {
     q: "Shack15 llama3 hackathon",
     text_decorations: false,
     freshness: "pw",
-});
+};
 
 // Perform the search
 brave.news(params).then(results => {
