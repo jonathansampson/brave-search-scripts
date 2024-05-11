@@ -3,7 +3,7 @@ Examples to get you started with the Brave Search API
 
 Sign up for a free API plan at [brave.com/search/api/](https://brave.com/search/api/).
 
-The JavaScript (for nodejs) examples include a helper function called `dumpSchema` which will give quick insights into the structure of API responses.
+This project contains example scripts for both **Python** and **JavaScript** (Node.js) environments. Each exists within its respective folder. The examples also include a helper function called `dumpSchema`, which will give quick insights into the structure of API responses.
 
 ![dumpSchema](dumpschema.png "Example of dumbSchema useed on news results")
 

@@ -10,7 +10,7 @@ module.exports = class BraveAPI {
     });
 
     version = "v1";
-    poll_sleep_time = 50;
+    poll_sleep_time = 50; // ms
     base = "https://api.search.brave.com/res";
 
     constructor(options) {
