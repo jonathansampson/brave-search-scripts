@@ -14,8 +14,15 @@ const goggleID = "https://raw.githubusercontent.com/brave/"
 // Setup the search parameters
 const params = new URLSearchParams({
     q: "Shack15 llama3 hackathon",
+    country: "us",
+    search_lang: "en",
+    ui_lang: "en-US",
+    count: 20,
+    offset: 0,
+    safesearch: "strict", // off, moderate, strict
+    freshness: "pw", // pd, pw, pm, py, or YYYY-MM-DDtoYYYY-MM-DD
     text_decorations: false,
-    freshness: "pw",
+    spellcheck: true,
     result_filter: "web",
     goggles_id: encodeURI(goggleID)
 });
