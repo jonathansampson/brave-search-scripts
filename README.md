@@ -1,3 +1,7 @@
+# Playground
+
+A playground project has been launched here: https://github.com/jonathansampson/brave-search-api-playground
+
 # brave-search-scripts
 Examples to get you started with the Brave Search API
 
