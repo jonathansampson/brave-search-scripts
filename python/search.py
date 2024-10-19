@@ -14,14 +14,14 @@ goggle_id = "https://raw.githubusercontent.com/brave/" \
 
 # Setting up parameters
 params = {
-    'q': "Shack15 llama3 hackathon",
+    'q': "San Francisco Hackathon Shack15",
     'country': "us",
     'search_lang': "en",
     'ui_lang': "en-US",
     'count': 20,
     'offset': 0,
     'safesearch': "strict", # off, moderate, strict
-    'freshness': "pw", # pd, pw, pm, py, or YYYY-MM-DDtoYYYY-MM-DD
+    'freshness': "py", # pd, pw, pm, py, or YYYY-MM-DDtoYYYY-MM-DD
     'text_decorations': False,
     'spellcheck': True,
     'result_filter': "web",

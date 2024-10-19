@@ -11,11 +11,11 @@ brave = BraveAPI({
 # Setting up parameters
 params = {
     'q': "jiu jitsu gyms in san francisco",
-    'freshness': "pw",
+    'freshness': "py",
 }
 
 # Performing the search
 results = brave.search(params)
 
 # Dumping and printing the schema of the results
-print(dump_schema(results['locations']))
+print(dump_schema(results["locations"]))

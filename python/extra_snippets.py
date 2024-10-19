@@ -10,9 +10,9 @@ brave = BraveAPI({
 
 # Setting up parameters
 params = {
-    'q': "llama3 hackathon May 2024",
+    'q': "San Francisco Hackathon Shack15",
     'text_decorations': False,
-    'freshness': "pm",
+    'freshness': "py",
     'result_filter': "web"
 }
 

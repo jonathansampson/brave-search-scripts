@@ -9,9 +9,9 @@ const brave = new BraveAPI({
 
 // Setup the search parameters
 const params = {
-    q: "Shack15 llama3 hackathon",
+    q: "San Francisco Hackathon Shack15",
     text_decorations: false,
-    freshness: "pw",
+    freshness: "py",
 };
 
 // Perform the search

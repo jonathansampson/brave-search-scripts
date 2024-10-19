@@ -13,14 +13,14 @@ const goggleID = "https://raw.githubusercontent.com/brave/"
 
 // Setup the search parameters
 const params = {
-    q: "Shack15 llama3 hackathon",
+    q: "San Francisco Hackathon Shack15",
     country: "us",
     search_lang: "en",
     ui_lang: "en-US",
     count: 20,
     offset: 0,
     safesearch: "strict", // off, moderate, strict
-    freshness: "pw", // pd, pw, pm, py, or YYYY-MM-DDtoYYYY-MM-DD
+    freshness: "py", // pd, pw, pm, py, or YYYY-MM-DDtoYYYY-MM-DD
     text_decorations: false,
     spellcheck: true,
     result_filter: "web",

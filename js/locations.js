@@ -10,7 +10,7 @@ const brave = new BraveAPI({
 // Setup the search parameters
 const params = {
     q: "jiu jitsu gyms in san francisco",
-    freshness: "pw",
+    freshness: "py",
 };
 
 // Perform the search

@@ -8,9 +8,9 @@ const brave = new BraveAPI({
 
 // Setup the search parameters
 const params = {
-    q: "llama3 hackathon May 2024",
+    q: "San Francisco Hackathon Shack15",
     text_decorations: false,
-    freshness: "pm",
+    freshness: "py",
     result_filter: "web",
 };
 

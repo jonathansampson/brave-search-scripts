@@ -11,7 +11,7 @@ brave = BraveAPI({
 # Setting up parameters
 params = {
     'q': "function calling with groq",
-    'freshness': "pm"
+    'freshness': "py"
 }
 
 # Performing the videos search

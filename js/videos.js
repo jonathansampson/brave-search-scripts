@@ -10,7 +10,7 @@ const brave = new BraveAPI({
 // Setup the search parameters
 const params = {
     q: "function calling with groq",
-    freshness: "pm",
+    freshness: "py",
 };
 
 // Perform the search
